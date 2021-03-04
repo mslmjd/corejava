@@ -21,12 +21,13 @@ public class BinarySearchinArrays {
 		// binarysearch in array
 		int key = 16;
 		int isfound = binarysearch(arr, key);
-		/*predefined method for binarysearch in arrays
-		  int isfound=Arrays.binarySearch(arr, key);
+		/*
+		 * predefined method for binarysearch in arrays int
+		 * isfound=Arrays.binarySearch(arr, key);
 		 */
 
-		if (isfound!=-1)
-			System.out.println(key + "is found at location"+isfound);
+		if (isfound != -1)
+			System.out.println(key + "is found at location" + isfound);
 		else
 			System.out.println(key + "is not found");
 

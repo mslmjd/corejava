@@ -20,7 +20,7 @@ public class DiceGameGenerateRandomNum {
 				break;
 			} else {
 				if (i == 3)
-					System.out.println("Sorry! You have reached max number of attempts ,the number is:  "+rnum);
+					System.out.println("Sorry! You have reached max number of attempts ,the number is:  " + rnum);
 				else
 					System.out.println("Sorry!try again");
 			}

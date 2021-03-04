@@ -19,8 +19,8 @@ public class SumAndAvgofArrayElements {
 			System.out.println("Enter student " + (i + 1) + " age:");
 			arr_age[i] = sc.nextInt();
 		}
-		//Display array elements
-		//System.out.println(arrToString(arr_age));
+		// Display array elements
+		// System.out.println(arrToString(arr_age));
 		System.out.println(Arrays.toString(arr_age));
 
 		// Sum of array elements
@@ -35,37 +35,28 @@ public class SumAndAvgofArrayElements {
 		avg = sum / (float) count;
 		System.out.println("Average of all student ages(all array elemts:)" + avg);
 
-		
-		
-	/*	// Display Array Elements
-		System.out.println("Array Elements are:");
-		System.out.print("[");
-		for (int i = 0; i < arr_age.length; i++) {
-			if (i == arr_age.length-1)
-				System.out.print(arr_age[i]);
+		/*
+		 * // Display Array Elements System.out.println("Array Elements are:");
+		 * System.out.print("["); for (int i = 0; i < arr_age.length; i++) { if (i ==
+		 * arr_age.length-1) System.out.print(arr_age[i]); else
+		 * System.out.print(arr_age[i] + ","); }
+		 * 
+		 * System.out.print("]");
+		 * 
+		 */
+	}// End of main
+
+	// display ArrayElements
+	public static String arrToString(int[] arr) {
+		String str = "[";
+		for (int i = 0; i < arr.length; i++) {
+			if (i == arr.length - 1)
+				str += arr[i];
 			else
-				System.out.print(arr_age[i] + ",");
+				str += arr[i] + ",";
 		}
+		str += "]";
+		return str;
+	}
 
-		System.out.print("]");
-		
-     */
-	}//End of main
-		
-		//display ArrayElements
-		public static String arrToString(int[] arr)
-		{
-			String str="[";
-			for(int i=0;i<arr.length;i++) {
-				if(i==arr.length-1)
-					str+=arr[i];
-				else
-					str+=arr[i]+",";
-			}
-			str+="]";
-			return str;
-			}
-		
-	}//End of class
-
-
+}// End of class
