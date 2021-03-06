@@ -20,6 +20,8 @@ public class SumofdigitsinaNum {
 			temp = temp / 10;
 		}
 		System.out.println("sum of digits in a given number is::" + sum);
+		
+		sc.close();
 
 	}
 

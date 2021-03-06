@@ -18,6 +18,7 @@ public class Bigoftwonum {
 
 		int big = (n1 > n2) ? n1 : n2;
 		System.out.printf("The biggest of the two numbers entered (%d and %d) is: %d", n1, n2, big);
+		sc.close();
 
 	}
 

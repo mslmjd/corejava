@@ -21,6 +21,7 @@ public class Bigofthreenum {
 
 		int big = ((n1 > n2) && (n1 > n3)) ? n1 : (n2 > n3) ? n2 : n3;
 		System.out.printf("The biggest of the three numbers entered (%d,%d and %d) is: %d", n1, n2, n3, big);
+		sc.close();
 
 	}
 

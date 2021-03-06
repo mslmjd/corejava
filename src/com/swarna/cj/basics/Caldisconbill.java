@@ -20,6 +20,7 @@ public class Caldisconbill {
 			discount = (billamt * 10) / 100;
 		int namt = billamt - discount;
 		System.out.println("net amount  : " + namt);
+		sc.close();
 	}
 
 }

@@ -36,5 +36,7 @@ public class GeneratePrimeNumbwLBandUB {
 		}
 		System.out.printf("The prime numbers between %d and %d are::", lb, ub);
 		System.out.print(primeNumbers);
+		
+		sc.close();
 	}
 }

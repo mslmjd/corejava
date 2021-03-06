@@ -34,6 +34,8 @@ public class SumAndAvgofArrayElements {
 		float avg = 0;
 		avg = sum / (float) count;
 		System.out.println("Average of all student ages(all array elemts:)" + avg);
+		
+		sc.close();
 
 		/*
 		 * // Display Array Elements System.out.println("Array Elements are:");
