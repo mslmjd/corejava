@@ -1,6 +1,6 @@
-package com.swarna.cj.basics.str;
+package com.careerit.cj.basics.str;
 
-public class StringPalindrome {
+public class Palindrome {
 
 	public static void main(String[] args) {
 		String name = "1221";
@@ -34,9 +34,9 @@ public class StringPalindrome {
 		} else {
 			System.out.println(name + " is not a palindrome");
 		}
-
+		
 		String revname = "";
-		for (int i = name.length() - 1; i >= 0; i--) {
+		for(int i=name.length()-1;i>=0;i--) {
 			revname += name.charAt(i);
 		}
 		if (revname.equals(name)) {
@@ -44,7 +44,7 @@ public class StringPalindrome {
 		} else {
 			System.out.println(name + " is not a palindrome");
 		}
-
+		
 		if (new StringBuffer(name).reverse().toString().equals(name)) {
 			System.out.println(name + " is a palindrome");
 		} else {
@@ -52,5 +52,4 @@ public class StringPalindrome {
 		}
 
 	}
-
 }
